@@ -95,21 +95,14 @@
             <p class="price">$5.99</p>
             <button class="buy-btn" onclick="addToCart(4.99)">Add to Cart</button>
         </div>
-
-
-
     </div>
-
     <div id="total">Total: $0.00</div>
-
     <script>
         let total = 0;
-
         function addToCart(price) {
             total += price;
             document.getElementById("total").textContent = "Total: $" + total.toFixed(2);
         }
     </script>
-    
 </body>
 </html>
